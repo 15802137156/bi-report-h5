@@ -1,0 +1,428 @@
+.management-briefing {
+  background: #1D40A5 url('../../assets/briefing/bg-icon.png');
+  background-size: cover;
+  padding-top: 29px;
+  width: 100%;
+  overflow-x: hidden;
+  .banner {
+    display: flex;
+    margin-bottom: 51px;
+    .logo {
+      width: 397px;
+      height: 289px;
+      position: relative;
+      background: url('../../assets/briefing/logo.png');
+      background-size: 100% 100%;
+      .date {
+        height:29px;
+        font-size:24px;
+        font-family:DIN-Regular,DIN;
+        font-weight:400;
+        color:rgba(255,255,255,0.8);
+        line-height:25px;
+        position: absolute;
+        left: 57px;
+        bottom: 32px;
+      }
+    }
+    .kite{
+      width: 276px;
+      height: 271px;
+      background: url('../../assets/briefing/kite.png');
+      background-size: 100% 100%;
+      margin-top: -4px;
+      margin-left: 26px;
+    }
+  }
+  .title-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .title-icon {
+      width: 26px;
+      height: 32px;
+      background: url('../../assets/briefing/title-icon.png');
+      background-size: 100% 100%;
+      margin: 0 10px 0 24px;
+    }
+    .title {
+      height:56px;
+      font-size:40px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(255,255,255,1);
+      line-height:56px;
+      margin-right: 10px;
+    }
+    .rectangle {
+      width: 461px;
+      height: 18px;
+      background: url('../../assets/briefing/rectangle.png');
+      background-size: 100% 100%;
+      z-index: 1;
+    }
+    .right-icon {
+      width: 219px;
+      height: 72px;
+      background: url('../../assets/briefing/right-icon.png');
+      background-size: 100% 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      .update {
+        font-size:24px;
+        font-family:DIN-Regular,DIN;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:76px;
+        padding-right: 24px;
+        text-align: right;
+      }
+    }
+  }
+  .whole-income {
+    padding: 22px 24px 0;
+    display: flex;
+  }
+  .income:nth-child(3n+1) {
+    padding: 0;
+    border: 0;
+  }
+  .income {
+    width: 33.33%;
+    padding-left: 30px;
+    border-left: 1px dashed rgba(255,255,255,0.32);
+    .title {
+      height:37px;
+      font-size:26px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(255,255,255,0.8);
+      line-height:37px;
+    }
+    .money {
+      margin-top: 12px;
+      height:34px;
+      font-size:32px;
+      font-family:DIN-Medium,DIN;
+      font-weight:500;
+      color:rgba(255,224,30,1);
+      line-height:34px;
+    }
+  }
+  .commercial-one {
+    margin-bottom: 70px;
+    .title-container {
+      height: 72px;
+    }
+  }
+  .commercial-two {
+    margin-bottom: 70px;
+  }
+  .commercial-three {
+    margin-bottom: 70px;
+  }
+  .commercial-four {
+    margin-bottom: 100px;
+  }
+  .advertiser {
+    padding: 30px 24px 0;
+    .advertiser-list {
+      width: 350px;
+      height: 40px;
+      float: left;
+      display: flex;
+      margin-bottom: 30px;
+      .name {
+        width: 124px;
+        font-size:28px;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+        line-height:40px;
+      }
+      .source {
+        font-size:24px;
+        width: 54px;
+        font-family:PingFangSC-Regular,PingFang SC;
+        font-weight:400;
+        color:rgba(255,255,255,0.49);
+        line-height:33px;
+        margin: 4px 8px 0 0;
+      }
+      .money {
+        font-size:24px;
+        font-family:DIN-Medium,DIN;
+        font-weight:500;
+        color:rgba(255,224,30,1);
+        line-height:25px;
+        margin-top: 9px;
+      }
+    }
+    .advertiser-list:nth-child(2n) {
+      border-left: 1px dashed rgba(255,255,255,0.32);
+      padding-left: 25px;
+    }
+  }
+  .advertising-data {
+    padding: 30px 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+    .income {
+      padding-bottom: 23px;
+    }
+    .income:last-child {
+      padding-bottom: 0;
+    }
+    .income:nth-last-child(2) {
+      padding-bottom: 0;
+    }
+    .income:nth-last-child(3) {
+      padding-bottom: 0;
+    }
+  }
+  .seven-data {
+    width: 700px;
+    height: 397px;
+    margin: 0 auto;
+    background: #0A32A3;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    padding: 30px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      .trend {
+        height:33px;
+        font-size:24px;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+        line-height:33px;
+      }
+      .source {
+        height: 26px;
+        display: flex;
+      }
+    }
+    .type {
+      position: absolute;
+      left: 50px;
+      bottom: 28px;
+      width: 600px;
+      font-size:16px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+      line-height:22px;
+      display: flex;
+      span {
+        flex: 1;
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  .canvas-type {
+    display: flex;
+    align-items: center;
+    font-size:18px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:26px;
+    margin-left: 24px;
+    .spot {
+      width: 10px;
+      height: 10px;
+      background: #12DEFF;
+      border-radius: 10px;
+      margin-right: 2px;
+    }
+  }
+  .canvas-data-container {
+    width: 700px;
+    height: 397px;
+  }
+  .advertiser-exposure {
+    width: 700px;
+    height: 397px;
+    margin: 0 auto;
+    background: #0A32A3;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    .title {
+      height:33px;
+      font-size:24px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(255,255,255,1);
+      line-height:33px;
+      position: absolute;
+      left: 30px;
+      top: 30px;
+    }
+    .type-container {
+      position: absolute;
+      left: 30px;
+      top: 114px;
+      .canvas-type {
+        margin-bottom: 29px;
+      }
+    }
+  }
+  .product-request {
+    padding: 35px 0;
+    .time {
+      padding: 30px 18px 0 24px;
+      display: flex;
+      span {
+        height:27px;
+        font-size:26px;
+        font-family:DIN-Medium,DIN;
+        font-weight:500;
+        color:rgba(41,247,237,1);
+        line-height:27px;
+        flex: 1;
+        padding-left: 90px;
+      }
+      span:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+  .product-data {
+    width: 700px;
+    height: 630px;
+    margin: 0 auto;
+    background: #0A32A3;
+    border-radius: 10px;
+    margin-top: 13px;
+    padding: 30px;
+    .title {
+      height:33px;
+      font-size:24px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(255,255,255,1);
+      line-height:33px;
+      margin-bottom: 31px;
+    }
+    .canvas-data-container {
+      width: 640px;
+      height: 381px;
+      margin: 0 auto;
+      background: #2348B1;
+      border-radius: 10px;
+    }
+    .product-canvas-type {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 29px 90px 0;
+      text-align: center;
+      .canvas-type {
+        margin-bottom: 18px;
+      }
+    }
+  }
+  .product-comparison {
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+    background: #0A32A3;
+    border-radius: 10px;
+    padding: 30px 0;
+    .title {
+      height:33px;
+      font-size:24px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(255,255,255,1);
+      line-height:33px;
+      margin: 0 0 30px 30px;
+    }
+  }
+  .commercial-five {
+    padding-bottom: 30px;
+    .title-container {
+      margin-bottom: 12px;
+    }
+  }
+  .commercial-sixe {
+    margin-bottom: 30px;
+  }
+  .comparison-container {
+    display: flex;
+    .container-half {
+      flex: 1;
+      border-right: 1px dashed rgba(255,255,255,0.32);
+    }
+    .container-half:last-child {
+      border-right: 0
+    }
+    .canvas-product-comparison-container {
+      width: 296px;
+      height: 251px;
+      margin: 0 auto;
+    }
+    .date {
+      width: 100%;
+      text-align: center;
+      height:28px;
+      font-size:20px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(255,255,255,0.7);
+      line-height:28px;
+    }
+    .container-half-type {
+      padding-right: 30px;
+      display: flex;
+      .canvas-type-left {
+        display: flex;
+        align-items: center;
+      }
+      .canvas-type {
+        width: 291px;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+      .percentage {
+        height:24px;
+        font-size:24px;
+        font-family:DIN-Medium,DIN;
+        font-weight:500;
+        color:rgba(255,224,30,1);
+        line-height:25px;
+      }
+    }
+  }
+  .realization-products {
+    margin: 0 auto 30px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+    }
+    .day {
+      height:28px;
+      font-size:20px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+      line-height:28px;
+      margin-left: 8px;
+    }
+  }
+  .adver-space-ecpm {
+    width: 640px;
+    height: 275px;
+    margin: 0 auto;
+    background: #2348B1;
+    border-radius: 10px;
+  }
+}

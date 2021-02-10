@@ -1,0 +1,35 @@
+div {
+  box-sizing: border-box;
+}
+
+* {
+    touch-action: pan-y;
+  }
+
+img {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow {
+  display: block;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.clearfix:after{
+  content:"";
+  height:0;
+  line-height:0;
+  display:block;
+  visibility:hidden;
+  clear:both;
+}
+
+.clearfix{
+  zoom:1;
+}

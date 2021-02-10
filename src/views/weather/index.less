@@ -1,0 +1,314 @@
+.weather-report{
+  background: #1D40A5 url('../../assets/weather/bg-icon.png');
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+  .dotted-line {
+    width: 702px;
+    margin: 0 auto 19px;
+    border-bottom: 1px dashed rgba(255,255,255,0.32);
+  }
+  .banner {
+    display: flex;
+    margin-bottom: 51px;
+    .logo {
+      width: 397px;
+      height: 289px;
+      position: relative;
+      background: url('../../assets/weather/logo.png');
+      background-size: 100% 100%;
+      .date {
+        position: absolute;
+        left: 49px;
+        bottom: 23px;
+        width:295px;
+        height:42px;
+        background:linear-gradient(270deg,rgba(59,99,217,0) 0%,rgba(59,99,217,1) 100%);
+        border-radius:8px 0px 0px 8px;
+        text-align: center;
+        font-size:24px;
+        font-family:DIN-Regular,DIN;
+        font-weight:400;
+        color:rgba(255,255,255,0.8);
+        line-height:42px;
+      }
+    }
+    .kite{
+      width: 276px;
+      height: 271px;
+      background: url('../../assets/briefing/kite.png');
+      background-size: 100% 100%;
+      margin-left: 26px;
+    }
+  }
+  .title-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .title-icon {
+      width: 26px;
+      height: 32px;
+      background: url('../../assets/briefing/title-icon.png');
+      background-size: 100% 100%;
+      margin: 0 10px 0 24px;
+    }
+    .title {
+      height:56px;
+      font-size:40px;
+      font-family:PingFangSC-Medium,PingFang SC;
+      font-weight:500;
+      color:rgba(255,255,255,1);
+      line-height:56px;
+      margin-right: 10px;
+    }
+    .rectangle {
+      width: 461px;
+      height: 18px;
+      background: url('../../assets/briefing/rectangle.png');
+      background-size: 100% 100%;
+      z-index: 1;
+    }
+    .right-icon {
+      width: 219px;
+      height: 72px;
+      background: url('../../assets/briefing/right-icon.png');
+      background-size: 100% 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      .update {
+        font-size:24px;
+        font-family:DIN-Regular,DIN;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        line-height:76px;
+        padding-right: 24px;
+        text-align: right;
+      }
+    }
+  }
+  .income {
+    width: 33.33%;
+    padding: 0 0 30px 30px;
+    border-left: 1px dashed rgba(255,255,255,0.32);
+    .title {
+      height:37px;
+      font-size:26px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(255,255,255,0.8);
+      line-height:37px;
+      display: flex;
+      .percentage {
+        font-size:24px;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(0,255,226,1);
+        line-height:37px;
+        margin-left: 6px;
+      }
+    }
+    .money {
+      margin-top: 12px;
+      height:34px;
+      font-size:32px;
+      font-family:DIN-Medium,DIN;
+      font-weight:500;
+      color:rgba(255,224,30,1);
+      line-height:34px;
+    }
+  }
+  .income:nth-child(3n+1) {
+    padding: 0;
+    border: 0;
+  }
+  .income:last-child {
+    padding-bottom: 0;
+  }
+  .income:nth-last-child(2) {
+    padding-bottom: 0;
+  }
+  .income:nth-last-child(3) {
+    padding-bottom: 0;
+  }
+  .advertising-data {
+    padding: 30px 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .overview {
+    margin-bottom: 97px;
+    .title-container {
+      height: 72px;
+    }
+  }
+  .subcontract {
+    margin-bottom: 90px;
+  }
+  .cooperation {
+    margin-bottom: 70px;
+  }
+  .seven-data {
+    width: 700px;
+    height: 397px;
+    margin: 0 auto;
+    background: #0A32A3;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 40px;
+    padding: 30px;
+    .title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      .trend {
+        height:33px;
+        font-size:24px;
+        font-family:PingFangSC-Medium,PingFang SC;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+        line-height:33px;
+      }
+      .source {
+        height: 26px;
+        display: flex;
+        .spot-1 {
+          background: #FF9372;
+        }
+      }
+    }
+    .type {
+      position: absolute;
+      left: 50px;
+      bottom: 28px;
+      width: 600px;
+      font-size:16px;
+      font-family:PingFangSC-Regular,PingFang SC;
+      font-weight:400;
+      color:rgba(255,255,255,1);
+      line-height:22px;
+      display: flex;
+      span {
+        flex: 1;
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+  .adver-space-ecpm {
+    width: 640px;
+    height: 275px;
+    margin: 0 auto;
+    background: #2348B1;
+    border-radius: 10px;
+  }
+  .canvas-type {
+    display: flex;
+    align-items: center;
+    font-size:18px;
+    font-family:PingFangSC-Regular,PingFang SC;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:26px;
+    margin-left: 24px;
+    .spot {
+      width: 10px;
+      height: 10px;
+      background: #12DEFF;
+      border-radius: 10px;
+      margin-right: 2px;
+    }
+  }
+  .header {
+    padding: 33px 0 21px;
+    .header-title {
+      height: 45px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 32px;
+      span {
+        font-size: 32px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 45px;
+      }
+      .arrow {
+        width: 24px;
+        height: 24px;
+        background: url('../../assets/weather/arrow.png');
+        background-size: 100% 100%;
+        margin-left: 12px;
+      }
+      .select-content {
+        width: 240px;
+        padding: 21px;
+        background: #FFFFFF;
+        border-radius: 16px;
+        position: absolute;
+        left: 370px;
+        top: 60px;
+        .triangle {
+          width: 0;
+          height: 0;
+          border-left: 11px solid transparent;
+          border-right: 11px solid transparent;
+          border-bottom: 18px solid #fff;
+          position: absolute;
+          left: 110px;
+          top: -18px;
+        }
+        .genre {
+          height: 40px;
+          font-size: 28px;
+          font-family: PingFangSC-Regular, PingFang SC;
+          font-weight: 400;
+          color: #262626;
+          line-height: 40px;
+        }
+        .first {
+          margin-bottom: 42px;
+        }
+      }
+    }
+    .options {
+      width: 410px;
+      height: 60px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .options-type {
+        font-size: 32px;
+        font-family: PingFangSC-Regular, PingFang SC;
+        font-weight: 400;
+        color: #FFFFFF;
+        line-height: 60px;
+        width: 106px;
+        height: 60px;
+        text-align: center;
+      }
+      .active {
+        width: 106px;
+        height: 60px;
+        background: rgba(255,255,255,0.2);
+        border-radius: 30px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        font-weight: 500;
+        color: #FFF300;
+        text-align: center;
+      }
+    }
+  }
+  .show-fixed {
+    z-index: 1;
+    width: 100%;
+    background: #4166CF;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+}

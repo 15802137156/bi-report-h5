@@ -1,0 +1,428 @@
+.management-briefing {
+  background: #1D40A5 url('../../assets/briefing/bg-icon.png');
+  background-size: cover;
+  padding-top: 29px;
+  width: 100%;
+  overflow-x: hidden;
+}
+.management-briefing .banner {
+  display: flex;
+  margin-bottom: 51px;
+}
+.management-briefing .banner .logo {
+  width: 397px;
+  height: 289px;
+  position: relative;
+  background: url('../../assets/briefing/logo.png');
+  background-size: 100% 100%;
+}
+.management-briefing .banner .logo .date {
+  height: 29px;
+  font-size: 24px;
+  font-family: DIN-Regular, DIN;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 25px;
+  position: absolute;
+  left: 57px;
+  bottom: 32px;
+}
+.management-briefing .banner .kite {
+  width: 276px;
+  height: 271px;
+  background: url('../../assets/briefing/kite.png');
+  background-size: 100% 100%;
+  margin-top: -4px;
+  margin-left: 26px;
+}
+.management-briefing .title-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.management-briefing .title-container .title-icon {
+  width: 26px;
+  height: 32px;
+  background: url('../../assets/briefing/title-icon.png');
+  background-size: 100% 100%;
+  margin: 0 10px 0 24px;
+}
+.management-briefing .title-container .title {
+  height: 56px;
+  font-size: 40px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 56px;
+  margin-right: 10px;
+}
+.management-briefing .title-container .rectangle {
+  width: 461px;
+  height: 18px;
+  background: url('../../assets/briefing/rectangle.png');
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.management-briefing .title-container .right-icon {
+  width: 219px;
+  height: 72px;
+  background: url('../../assets/briefing/right-icon.png');
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.management-briefing .title-container .right-icon .update {
+  font-size: 24px;
+  font-family: DIN-Regular, DIN;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 76px;
+  padding-right: 24px;
+  text-align: right;
+}
+.management-briefing .whole-income {
+  padding: 22px 24px 0;
+  display: flex;
+}
+.management-briefing .income:nth-child(3n+1) {
+  padding: 0;
+  border: 0;
+}
+.management-briefing .income {
+  width: 33.33%;
+  padding-left: 30px;
+  border-left: 1px dashed rgba(255, 255, 255, 0.32);
+}
+.management-briefing .income .title {
+  height: 37px;
+  font-size: 26px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 37px;
+}
+.management-briefing .income .money {
+  margin-top: 12px;
+  height: 34px;
+  font-size: 32px;
+  font-family: DIN-Medium, DIN;
+  font-weight: 500;
+  color: #ffe01e;
+  line-height: 34px;
+}
+.management-briefing .commercial-one {
+  margin-bottom: 70px;
+}
+.management-briefing .commercial-one .title-container {
+  height: 72px;
+}
+.management-briefing .commercial-two {
+  margin-bottom: 70px;
+}
+.management-briefing .commercial-three {
+  margin-bottom: 70px;
+}
+.management-briefing .commercial-four {
+  margin-bottom: 100px;
+}
+.management-briefing .advertiser {
+  padding: 30px 24px 0;
+}
+.management-briefing .advertiser .advertiser-list {
+  width: 350px;
+  height: 40px;
+  float: left;
+  display: flex;
+  margin-bottom: 30px;
+}
+.management-briefing .advertiser .advertiser-list .name {
+  width: 124px;
+  font-size: 28px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 40px;
+}
+.management-briefing .advertiser .advertiser-list .source {
+  font-size: 24px;
+  width: 54px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.49);
+  line-height: 33px;
+  margin: 4px 8px 0 0;
+}
+.management-briefing .advertiser .advertiser-list .money {
+  font-size: 24px;
+  font-family: DIN-Medium, DIN;
+  font-weight: 500;
+  color: #ffe01e;
+  line-height: 25px;
+  margin-top: 9px;
+}
+.management-briefing .advertiser .advertiser-list:nth-child(2n) {
+  border-left: 1px dashed rgba(255, 255, 255, 0.32);
+  padding-left: 25px;
+}
+.management-briefing .advertising-data {
+  padding: 30px 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.management-briefing .advertising-data .income {
+  padding-bottom: 23px;
+}
+.management-briefing .advertising-data .income:last-child {
+  padding-bottom: 0;
+}
+.management-briefing .advertising-data .income:nth-last-child(2) {
+  padding-bottom: 0;
+}
+.management-briefing .advertising-data .income:nth-last-child(3) {
+  padding-bottom: 0;
+}
+.management-briefing .seven-data {
+  width: 700px;
+  height: 397px;
+  margin: 0 auto;
+  background: #0A32A3;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.management-briefing .seven-data .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.management-briefing .seven-data .title .trend {
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 33px;
+}
+.management-briefing .seven-data .title .source {
+  height: 26px;
+  display: flex;
+}
+.management-briefing .seven-data .type {
+  position: absolute;
+  left: 50px;
+  bottom: 28px;
+  width: 600px;
+  font-size: 16px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 22px;
+  display: flex;
+}
+.management-briefing .seven-data .type span {
+  flex: 1;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.management-briefing .canvas-type {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 26px;
+  margin-left: 24px;
+}
+.management-briefing .canvas-type .spot {
+  width: 10px;
+  height: 10px;
+  background: #12DEFF;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+.management-briefing .canvas-data-container {
+  width: 700px;
+  height: 397px;
+}
+.management-briefing .advertiser-exposure {
+  width: 700px;
+  height: 397px;
+  margin: 0 auto;
+  background: #0A32A3;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.management-briefing .advertiser-exposure .title {
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 33px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.management-briefing .advertiser-exposure .type-container {
+  position: absolute;
+  left: 30px;
+  top: 114px;
+}
+.management-briefing .advertiser-exposure .type-container .canvas-type {
+  margin-bottom: 29px;
+}
+.management-briefing .product-request {
+  padding: 35px 0;
+}
+.management-briefing .product-request .time {
+  padding: 30px 18px 0 24px;
+  display: flex;
+}
+.management-briefing .product-request .time span {
+  height: 27px;
+  font-size: 26px;
+  font-family: DIN-Medium, DIN;
+  font-weight: 500;
+  color: #29f7ed;
+  line-height: 27px;
+  flex: 1;
+  padding-left: 90px;
+}
+.management-briefing .product-request .time span:first-child {
+  padding-left: 0;
+}
+.management-briefing .product-data {
+  width: 700px;
+  height: 630px;
+  margin: 0 auto;
+  background: #0A32A3;
+  border-radius: 10px;
+  margin-top: 13px;
+  padding: 30px;
+}
+.management-briefing .product-data .title {
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 33px;
+  margin-bottom: 31px;
+}
+.management-briefing .product-data .canvas-data-container {
+  width: 640px;
+  height: 381px;
+  margin: 0 auto;
+  background: #2348B1;
+  border-radius: 10px;
+}
+.management-briefing .product-data .product-canvas-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 29px 90px 0;
+  text-align: center;
+}
+.management-briefing .product-data .product-canvas-type .canvas-type {
+  margin-bottom: 18px;
+}
+.management-briefing .product-comparison {
+  width: 700px;
+  height: 800px;
+  margin: 0 auto;
+  background: #0A32A3;
+  border-radius: 10px;
+  padding: 30px 0;
+}
+.management-briefing .product-comparison .title {
+  height: 33px;
+  font-size: 24px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 33px;
+  margin: 0 0 30px 30px;
+}
+.management-briefing .commercial-five {
+  padding-bottom: 30px;
+}
+.management-briefing .commercial-five .title-container {
+  margin-bottom: 12px;
+}
+.management-briefing .commercial-sixe {
+  margin-bottom: 30px;
+}
+.management-briefing .comparison-container {
+  display: flex;
+}
+.management-briefing .comparison-container .container-half {
+  flex: 1;
+  border-right: 1px dashed rgba(255, 255, 255, 0.32);
+}
+.management-briefing .comparison-container .container-half:last-child {
+  border-right: 0;
+}
+.management-briefing .comparison-container .canvas-product-comparison-container {
+  width: 296px;
+  height: 251px;
+  margin: 0 auto;
+}
+.management-briefing .comparison-container .date {
+  width: 100%;
+  text-align: center;
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 28px;
+}
+.management-briefing .comparison-container .container-half-type {
+  padding-right: 30px;
+  display: flex;
+}
+.management-briefing .comparison-container .container-half-type .canvas-type-left {
+  display: flex;
+  align-items: center;
+}
+.management-briefing .comparison-container .container-half-type .canvas-type {
+  width: 291px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.management-briefing .comparison-container .container-half-type .percentage {
+  height: 24px;
+  font-size: 24px;
+  font-family: DIN-Medium, DIN;
+  font-weight: 500;
+  color: #ffe01e;
+  line-height: 25px;
+}
+.management-briefing .realization-products {
+  margin: 0 auto 30px;
+}
+.management-briefing .realization-products .title {
+  display: flex;
+  justify-content: space-between;
+}
+.management-briefing .realization-products .day {
+  height: 28px;
+  font-size: 20px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 28px;
+  margin-left: 8px;
+}
+.management-briefing .adver-space-ecpm {
+  width: 640px;
+  height: 275px;
+  margin: 0 auto;
+  background: #2348B1;
+  border-radius: 10px;
+}
